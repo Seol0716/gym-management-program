@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/pro"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:text="달성률"
+            android:textColor="#000000"
+            android:textSize="50dp"></TextView>
+
+        <Button
+            android:id="@+id/pre_button"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/prem">
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="체중"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/weig_text"
+                android:textColor="#000000"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="100KG"
+                android:id="@+id/wei_value"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#000000">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="BMI"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/bmi_text"
+                android:textColor="#000000">
+            </TextView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="값"
+                android:id="@+id/bmi_value"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#000000">
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="키"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/ki_text"
+                android:textColor="#000000">
+            </TextView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="172cm"
+                android:id="@+id/ki_value"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#000000">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000">
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

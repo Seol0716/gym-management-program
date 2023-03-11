@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="70dp"
+            android:text="회원가입"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/create_user_id"
+            android:layout_width="215dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="70dp"
+            android:hint="이름"
+            android:textSize="15dp"></EditText>
+
+
+        <EditText
+            android:id="@+id/create_user_password"
+            android:layout_width="215dp"
+
+            android:layout_height="70dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="15dp"
+            android:hint="비밀번호"
+            android:textSize="15dp"></EditText>
+
+        <EditText
+            android:id="@+id/create_user_nickname"
+            android:layout_width="215dp"
+
+            android:layout_height="70dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="15dp"
+            android:hint="닉네임"
+            android:textSize="15dp"></EditText>
+
+        <EditText
+            android:id="@+id/create_user_ki"
+            android:layout_width="215dp"
+
+            android:layout_height="70dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="15dp"
+            android:hint="키"
+            android:textSize="15dp"></EditText>
+
+        <EditText
+            android:id="@+id/create_user_weight"
+            android:layout_width="215dp"
+
+            android:layout_height="70dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="15dp"
+            android:hint="몸무게"
+            android:textSize="15dp"></EditText>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/create_user_button"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="40dp"
+                android:background="#FFD700"
+                android:text="회원가입"
+                android:textColor="#ffffff"></Button>
+
+            <Button
+                android:id="@+id/create_user_close"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="70dp"
+                android:background="#FFD700"
+                android:text="취소"
+                android:textColor="#ffffff"></Button>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
